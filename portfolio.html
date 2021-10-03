@@ -5,82 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
-    <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="page">
-    <header class="shadow">
+    <header class="header">
+        <div class="container">
         <nav>
-            <a class="logo" href="portfolio.html">Web<span class="studio">Studio</span></a>
-            <ul>
-                <li><a class="nav" href="">Студия</a></li> 
-                <li><a class="nav-second" href="portfolio.html">Портфолио</a></li>
-                <li><a class="nav" href="">Контакы</a></li>
+            <a href="./index.html" class="logo">Web<span class="dark-logo">Studio</span></a>
+            <ul class="contacts-items">
+                <li><a href="./index.html" class="nav studio">Студия</a></li> 
+                <li><a href="./portfolio.html" class="nav active portfolio">Портфолио</a></li>
+                <li><a class="nav new-data" href="">Контакы</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><a class="auto-nav" href="info@devstudio.com">info@devstudio.com</a></li>
+        <ul class= "contacts">
+            <li><a class="auto-email" href="info@devstudio.com">info@devstudio.com</a></li>
             <li><a class="auto-nav" href="tel:+380961111111">+380961111111</a></li>
         </ul>
+        </div>
     </header>
     <main>
-        <ul class="button-type">
-            <li><button class="button-primary" type="button">Все</button></li>
-            <li><button class="button-link" type="button">Веб-сайты</button></li>
-            <li><button class="button-link" type="button">Приложения</button></li>
-            <li><button class="button-link" type="button">Дизайн</button></li>
-            <li><button class="button-link" type="button">Маркетинг</button></li>
+        <section class= "buttons">
+            <div class="container">
+        <div class="container-block">
+            <h1 hidden>Portfolio</h1>
+        <ul class="container-button">
+            <li><button class="button all" type="button">Все</button></li>
+            <li><button class="button" type="button">Веб-сайты</button></li>
+            <li><button class="button" type="button">Приложения</button></li>
+            <li><button class="button" type="button">Дизайн</button></li>
+            <li><button class="button" type="button">Маркетинг</button></li>
         </ul>
-        <ul>
-            <li><a href="" class="link"><img src="images/image1.jpg" width=370 alt="Наши люди"/>
-                    <h2>Технокряк</h2>
-                    <p class="name">Веб-сайт</p>
+        </div>
+       <div class=flex-container>
+        <ul class="flex-set">
+            <li class=flex-link><a href="" class="link"><img class="image" src="images/image1.jpg" width=370 alt="Наши люди"/>
+                    <h2 class="header-name">Технокряк</h2>
+                    <p class="name-site">Веб-сайт</p>
                 </a></li>
-            <li><a href="" class="link"><img src="images/image2.jpg" width=370 alt="Фото дизайна"/>
-                    <h2>Постер New Orlean vs Golden Star</h2>
-                    <p class="name">Дизайн</p>
+            <li class=flex-link><a href="" class="link"><img class="image" src="images/image2.jpg" width=370 alt="Фото дизайна"/>
+                    <h2 class="header-name">Постер New Orlean vs Golden Star</h2>
+                    <p class="name-site">Дизайн</p>
                 </a></li>
-            <li><a href="" class="link"><img src="images/image3.jpg" width=370 alt="Фото приложения"/>
-                    <h2>Ресторан Seafood</h2>
-                    <p class="name">Приложение</p>
+            <li class=flex-link><a href="" class="link"><img class="image" src="images/image3.jpg" width=370 alt="Фото приложения"/>
+                    <h2 class="header-name">Ресторан Seafood</h2>
+                    <p class="name-site">Приложение</p>
                 </a></li>
-            <li><a href="" class="link"><img src="images/image4.jpg" width=370 alt="Наушники"/>
-                    <h2>Проект Prime</h2>
-                    <p class="name">Маркетинг</p>
+            <li class=flex-link><a href="" class="link"><img class="image" src="images/image4.jpg" width=370 alt="Наушники"/>
+                    <h2 class="header-name">Проект Prime</h2>
+                    <p class="name-site">Маркетинг</p>
                 </a></li>
-            <li><a href="" class="link"><img src="images/image5.jpg" width=370 alt="Boxes"/>
-                    <h2>Проект Boxes</h2>
-                    <p class="name">Приложение</p>
+            <li class=flex-link><a href="" class="link"><img class="image" src="images/image5.jpg" width=370 alt="Boxes"/>
+                    <h2 class="header-name">Проект Boxes</h2>
+                    <p class="name-site">Приложение</p>
                 </a></li>
-            <li><a href="" class="link"><img src="images/image6.jpg" width=370 alt="Фото веб-сайта"/>
-                    <h2>Inspiration has no Borders</h2>
-                    <p class="name">Веб-сайт</p>
+            <li class=flex-link><a href="" class="link"><img class="image" src="images/image6.jpg" width=370 alt="Фото веб-сайта"/>
+                    <h2 class="header-name">Inspiration has no Borders</h2>
+                    <p class="name-site">Веб-сайт</p>
                 </a></li>
-            <li><a href="" class="link"><img src="images/image7.jpg" width=370 alt="Фото дизайна"/>
-                    <h2>Издание Limited Edition</h2>
-                    <p class="name">Дизайн</p>
+            <li class=flex-link><a href="" class="link"><img class="image" src="images/image7.jpg" width=370 alt="Фото дизайна"/>
+                    <h2 class="header-name">Издание Limited Edition</h2>
+                    <p class="name-site">Дизайн</p>
                 </a></li>
-            <li><a href="" class="link"><img src="images/image8.jpg" width=370 alt="Фото проекта" />
-                    <h2>Проект LAB</h2>
-                    <p class="name">Маркетинг</p>
+            <li class=flex-link><a href="" class="link"><img class="image" src="images/image8.jpg" width=370 alt="Фото проекта" />
+                    <h2 class="header-name">Проект LAB</h2>
+                    <p class="name-site">Маркетинг</p>
                 </a></li>
-            <li><a href="" class="link"><img src="images/image9.jpg" width=370 alt="Фото приложения"/>
-                    <h2>Growing Business</h2>
-                    <p class="name">Приложение</p>
+            <li class=flex-link><a href="" class="link"><img class="image" src="images/image9.jpg" width=370 alt="Фото приложения"/>
+                    <h2 class="header-name">Growing Business</h2>
+                    <p class="name-site">Приложение</p>
                 </a></li>
         </ul>
+        </div>
+    </div>
+    </section>
     </main>
     <footer class= "frame">
-        <a class="logo" href="WebStudio">Web<span class="studio-second">Studio</span></a>
-        <address>
+        <div class="container">
+        <div class="footer-portfolio">
+        <a class="footer-logo" href="WebStudio">Web<span class="white-logo">Studio</span></a>
+        <address class="address-data">
             <p class="address-name">г. Киев, пр-т Леси Украинки, 26</p> 
             <a class="auto-second" href="info@example.com">info@example.com</a><br>
-            <a class="auto-second" href="tel:+380991111111">+380961111111</a>
+            <a class="auto-second tell" href="tel:+380991111111">+380961111111</a>
             </address>
+            </div>
+            </div>
     </footer>
 </body>
-
 </html>
