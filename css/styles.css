@@ -1,0 +1,212 @@
+:root {
+  --primary-text-color: rgba(0, 0, 0, 0.8);
+  --title-text-color: #000000;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --second-main-color: #212121;
+  --primary-gray-color: #757575;
+  --background-color: #e5e5e5;
+}
+body {
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+}
+.page {
+  background-color: var(--background-color);
+}
+ul {
+  list-style: none;
+}
+.shadow:focus {
+  color: var(--accent-color);
+}
+.studio:hover,
+.studio:focus {
+  color: var(--accent-color);
+}
+.nav:hover,
+.nav:focus {
+  color: var(--accent-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+.auto-nav:hover,
+.auto-nav:focus {
+  color: var(--accent-color);
+}
+.logo {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  vertical-align: top;
+  letter-spacing: 0.03em;
+}
+.studio {
+  color: var(--title-text-color);
+}
+.nav {
+  color: var(--second-main-color);
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.nav-second:hover,
+.nav-second:focus {
+  color: var(--accent-color);
+}
+.nav-second {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.14;
+  vertical-align: Top;
+  letter-spacing: 0.002em;
+  color: var(--accent-color);
+}
+.auto-nav {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.14;
+  vertical-align: Top;
+  letter-spacing: 0.02em;
+  color: var(--second-main-color);
+  text-decoration: none;
+}
+.button-type {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.62;
+  vertical-align: Top;
+  letter-spacing: 0.03em;
+  color: var(--second-main-color);
+}
+.button-primary:hover,
+.button-primary:focus {
+  color: var(--accent-color);
+}
+
+.button-primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  border-color: var(--accent-color);
+}
+.button-link:hover,
+.button-link:focus {
+  color: var(--accent-color);
+}
+.button-link {
+  color: var(--second-main-color);
+  background-color: var(--background-color);
+  cursor: pointer;
+  border-color: var(--background-color);
+}
+.studio-second:hover,
+.studio-second:focus {
+  color: var(--accent-color);
+}
+.studio-second {
+  color: var(--primary-white-color);
+}
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 2;
+  vertical-align: Top;
+  letter-spacing: 0.06em;
+  color: var(--second-main-color);
+}
+.name {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 1.8;
+  vertical-align: Top;
+  letter-spacing: 0.03em;
+  color: var(--primary-gray-color);
+}
+.link {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+.frame {
+  color: #2f303a;
+}
+.address-name:hover,
+.address-name:focus {
+  color: var(--accent-color);
+}
+.address-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 1.7;
+  vertical-align: Top;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+}
+.auto-second:hover,
+.auto-second:focus {
+  color: var(--accent-color);
+}
+.auto-second {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 1.7;
+  vertical-align: Top;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.main-header {
+  font-family: "Roboto" black;
+  font-size: 44px;
+  line-height: 1.36;
+  vertical-align: Top;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+}
+.second-header {
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  line-height: 1.16;
+  vertical-align: Top;
+  letter-spacing: 0.03em;
+  color: var(--second-main-color);
+}
+.worker {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.18;
+  vertical-align: Top;
+  letter-spacing: 0.03em;
+  color: var(--second-main-color);
+}
+.subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.14;
+  vertical-align: Top;
+  letter-spacing: 0.03em;
+  color: var(--second-main-color);
+}
+.description {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  vertical-align: Top;
+  letter-spacing: 0.03em;
+  color: var(--primary-gray-color);
+}
