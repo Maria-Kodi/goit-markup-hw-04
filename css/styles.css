@@ -43,19 +43,18 @@ p {
 .container-block {
   display: flex;
   justify-content: center;
-  padding-bottom: 34px;
-  margin-top: 0;
-  margin-bottom: 50px;
+}
+ .container .buttons {
+  display: block;
+  padding-bottom: 94px;
+  padding-top: 94px;
+  padding-left: 215px;
+  padding-right: 215px;
 }
 .container-button {
   display: flex;
   justify-content: center;
-  }
- .container .buttons {
-  display: block;
-  margin-bottom: 94px;
-  padding-left: 215px;
-  padding-right: 215px;
+  margin-bottom: 50px;
 }
 .button {
   margin: 8px;
@@ -238,8 +237,6 @@ margin-right: 30px;
 .auto-second:focus,
 .nav:hover,
 .nav:focus,
-.all:hover,
-.all:focus,
 .active {
   color: var(--accent-color);
 }
@@ -284,18 +281,6 @@ fill: var(--accent-color);
   font-size: 16px;
   line-height: 1.6;
   letter-spacing: 0.03em;
-}
-.all {
-  border-radius: 4px;
-  border: none;
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-  cursor: pointer;
 }
 .header-name {
   font-size: 18px;
@@ -546,9 +531,6 @@ fill: var(--primary-gray-color);
 .subtitle-text:last-child {
 margin-right: 0;
 }
-.section-description {
-padding-bottom: 0;
-}
 .description {
   font-size: 14px;
   line-height: 1.71;
@@ -557,7 +539,7 @@ padding-bottom: 0;
 }
 .section-image {
 padding-top: 0;
-margin-bottom: 50px;
+padding-bottom: 94px;
 }
 .second-header {
 margin-bottom: 50px;
